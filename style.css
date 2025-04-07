@@ -1,0 +1,94 @@
+/* Importing Goggle fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Material+Icons");
+
+* {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3991f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #010849;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#book-title, 
+#book-author{
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #010849;
+}
+
+#add-book {
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #3991f5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#add-book:hover {
+  background: #063e83;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.book-list li .details {
+  flex: 1;
+}
+
+.book-list li button {
+  padding: 5px 10px;
+  font-size: 0.9em;
+  color: #fff;
+  background: #dc3545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-list li button:hover {
+  background: #c82333;
+}
